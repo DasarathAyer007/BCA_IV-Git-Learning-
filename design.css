@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+/*            background-image: url("photo.jpg");
+            background background-repeat: no-repeat;
+            background size: cover;*/
+}
+.main{
+    display: grid;
+    grid grid-template: 'leftcontent rightcontent';
+}
+.leftContent{
+    width: 51%;
+    float: left;
+    border: 3px solid black;
+}
+.leftContent h2{
+    text-align: center;
+     background-color: #09d279;
+     padding: 5px;
+     border-left: 5px solid #044cfd;
+     border-right: 5px solid #044cfd ;
+     border-radius: 10px;
+}
+.leftContent p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 30px;
+}
+.rightContent{
+    width: 49%;
+    float: left;
+}
+.logo{
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+nav{
+    float: center;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin-top: 4px;
+    margin-bottom:4px
+    
+}
+nav ul li{
+    display: inline;
+    padding-left: 200px;
+}
+nav ul li:hover::{
+   color: deepskyblue;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: deepskyblue;
+}
+nav h2{
+     background-color: #e04902;
+     padding: 5px;
+     border-left: 5px solid #4CAF50;
+     border-radius: 10px;
+}
+.education{
+    clear: both;
+    padding-top: 20px;
+}
+
+.education .degree{
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    background-color: #f0f4cd;
+}
+.education .icon{
+    width: 40px;
+}
+.education .degree:hover{
+    color: deepskyblue;
+}
+
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form h2 {
+            margin-bottom: 20px;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #4cae4c;
+        }
